@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon"
+    type="image/svg" 
+    href="../assets/images/Learn to Earn. (7).svg" class="m-0 p-0 w-full h-full">
+    <link rel="stylesheet" href="../css/style.css" />
+
+
+    <title>Learn to Earn</title>
+  </head>
+  
+  <body>
+
+    <nav class="relative container mx-2 mt-0 p-0">
+      <div class="flex items-center justify-between">
+        <!-- flex container for logo -->
+        <div class="flex items-center space-x-[26px]">
+          <!-- logo -->
+          <a href="/"> <img src="../assets/images/Learn to Earn. (7).svg" alt="side logo" class="w-[65px]"> </a>
+          <a href="/">  <img src="../assets/svgs-design/Learn to Earn. (2).svg" alt="logo" class="w-1/5" role="button" /></a>
+          <!-- left buttons -->
+          <div class="hidden space-x-12 font-bold lg:flex">
+            <a href="/" class="text-gray-600 hover:text-black hover:translate-y-0.5">Home</a>
+            <a href="/courses" class="text-gray-600 hover:text-black hover:translate-y-0.5">Courses</a>
+            <a href="/webinar" class="text-gray-600 hover:text-black hover:translate-y-0.5">Webinar</a>
+            <!-- <a href="/blog" class="text-gray-600 hover:text-black hover:translate-y-0.5">Blog</a> -->
+          </div>
+        </div>
+        <!-- Right buttons -->
+        <div class="hidden items-center space-x-8 font-bold text-gray-600  lg:flex">
+          <div class="hover:text-veryDarkVoilet hover:translate-y-0.5">
+            <a href="/login">Login</a>
+          </div>
+          <a href="/signup" class="px-8 py-3 font-bold text-white bg-violet-600 rounded-full hover:opacity-70 hover:translate-y-0.5 hover:shadow-lg">Sign Up</a>
+        </div>
+        <!-- Hamburger -->
+
+        <div class="lg:hidden">
+          <button id="menu-btn" type="button" class="hamburger block lg:hidden focus:outline-none ">
+            <span class="hamburger-top"></span>
+            <span class="hamburger-middle"></span>
+            <span class="hamburger-bottom"></span>
+          </button>
+        </div>
+      </div>
+      <!-- Mobile view -->
+
+      <div id="menu" class="absolute hidden p-6 rounded-lg bg-[#6B4596] left-6 right-6 top-20 z-100">
+        <div class="flex flex-col items-center justify-center w-full space-y-6 font-bold text-white rounded-sm">
+          <a href="/" class="w-full text-center">Home</a>
+          <a href="/courses" class="w-full text-center">Courses</a>
+          <a href="/webinar" class="w-full text-center">Webinar</a>
+          <!-- <a href="/blog" class="w-full text-center">Blog</a> -->
+          <a href="/login" class="w-full pt-6 border-t-gray-400 text-center">Login</a>
+          <a href="/signup" class="w-full py-3 bg-violet-600 rounded-full text-center">Sign Up</a>
+          
+        </div>
+
+     </div>
+    </nav>
+    <!-- Hero section -->
+    <section id="hero">
+
+      <div class="container flex flex-col-reverse mx-auto md:flex-row">
+        
+        <!-- Upper Content Container  -->
+        <div class="flex flex-col space-y-10 mb-16 lg:mt-16 lg:w-1/2 xl:mb-40">
+
+          <h1 class="text-[40px] font-bold text-center lg:text-[45px] md:max-w-md md:text-left"> Let's Bring your <span class="text-violet-600">Best.</span></h1>
+
+          <p class="text-2-xl text-center text-gray-600 md:max-w-md md:text-left"><span class="font-semibold">Welcome to Learn to Earn where learning meets earning.</span> We understand your busy life, which is why we've transformed 9-12 month skills cerification into bite-sized 5-45 days, content-rich experiences that respect your time. We're here to equip you with the skills and knowledge to launch your own business or startup, all from the comfort of your home.</p>
+
+            <div class="mx-auto lg:mx-0">
+              <a href="/courses" class="py-5 px-10 rounded-full text-2xl font-bold text-white bg-violet-600 lg:py-4 hover:bg-opacity-70 hover:translate-x-0.5 hover:shadow-xl">Get Started</a>
+            </div>
+
+        </div>
+        <!-- image -->
+        <div class="mb-24 mx-auto md:w-180 lg-mb-0 lg:w-1/2 mt-10 -z-10">
+        <video  autoplay loop muted class="rounded-2xl shadow-2xl hover:translate-y-0.5">
+          <source src="../assets/svgs-design/l-t-e-gif.mp4"
+          type="video/mp4">
+        </video>
+        </div>
+      </div>
+      <hr class="items-start h-20">
+    
+    </section>
+
+
+    <section>
+    <div class="container mx-auto px-3 bg-gradient-to-r from-violet-300 to-violet-100 animate-text border rounded-2xl">
+      <h2 class="text-4xl mb-6 font-bold text-center text-black">
+        Make an Investment Today to Reward Your <span class="text-violet-700">Tomorrow</span>. 
+      </h2>
+      <p class="m space-y-20ax-w-xs mx-auto text-center text-gray-800 font-semibold sm:max-w-md">Discover the Power of One Investment: Elevate Your Future with Affordable E-Learning. We believe in accessible education, with diverse courses, quick support, and content that respects your time. Invest in your potential for a transformative journey towards career success and entrepreneurial growth.</p>
+    </div>
+  </section>
+
+  <!-- features section -->
+  <section id="features" class="pb-32">
+    <div class="relative container flex flex-col items-start px-6 mx-auto md:flex-row md:space-x-7">
+      <!-- hr line -->
+      <div class="hidden absolute top-24 w-10/12 left-16 h-3 bg-gradient-to-r from-violet-600 to-violet-200 animate-text sm:block"></div>
+      <!-- vr line -->
+      <div class="absolute w-2 left-1/2 h-full -ml-1 bg-gradient-to-r from-violet-600 to-violet-200 animate-text md:hidden"></div>
+
+      <!-- Box 1 -->
+      <div class="relative flex flex-col p-6 space-y-6 mt-8 bg-gradient-to-r from-violet-300 to-violet-100 animate-text rounded-lg sm:1/3">
+        <!-- img positioning -->
+        <div class="absolute -ml-10 left-1/2 -top-10 md:left-16">
+          <!-- img container -->
+          <div class="flex items-center justify-center w-20 h-20 p-4 rounded-full bg-veryDarkVoilet">
+
+            <img src="../assets/images/Time-saving.svg" alt="Time saving logo" class="mt-18 sm:mt-14" />
+          </div>
+        </div>
+        <h5 class="pt-4 text-xl font-bold text-center capitalize md:text-left">
+          Time Saving
+        </h5>
+        <p class="text-center text-gray-800 md:text-left">Say goodbye to long courses and hello to results, while respecting your valuable time. We have shorten 9months-12months courses to 1 - 1.5 month that deliver full content to save your time and get more better results.</p>
+      </div>
+
+       <!-- Box 2 -->
+       <div class="relative flex flex-col mt-24 p-6 space-y-6 bg-gradient-to-r from-violet-300 to-violet-100 animate-text rounded-lg md:mt-8 sm:1/3">
+        <!-- img positioning -->
+        <div class="absolute -ml-10 left-1/2 -top-10 md:left-16">
+          <!-- img container -->
+          <div class="flex items-center justify-center w-22 h-20 p-4 rounded-full bg-veryDarkVoilet">
+
+            <img src="../assets/images/Budget-logo.svg" alt="Time saving logo" class="mt-18 w-22 h-20 sm:mt-14" />
+          </div>
+        </div>
+        <h5 class="pt-4 text-xl font-bold text-center capitalize md:text-left">
+          Budget Friendly
+        </h5>
+        <p class="text-center text-gray-800 md:text-left">Explore the realm of Courses and Webinars with Our Exclusive Subscription. We're committed to affordability, offering the lowest prices, making learning accessible to all.</p>
+      </div>
+
+       <!-- Box 3 -->
+       <div class="relative flex flex-col mt-24 p-6 space-y-6 bg-gradient-to-r from-violet-300 to-violet-100 animate-text rounded-lg md:mt-8 sm:1/3">
+        <!-- img positioning -->
+        <div class="absolute -ml-10 left-1/2 -top-10 md:left-16">
+          <!-- img container -->
+          <div class="flex items-center justify-center w-22 h-20 p-4 rounded-full bg-veryDarkVoilet">
+
+            <img src="../assets/images/prompt-solution.svg" alt="Time saving logo" class="mt-18 w-20 h-16 sm:mt-14" />
+          </div>
+        </div>
+        <h5 class="pt-4 text-xl font-bold text-center capitalize md:text-left">
+          Prompt Solutions
+        </h5>
+        <p class="text-center text-gray-800 md:text-left">Beyond Courses, We provide quick solutions within 24 hours. Your time matters, and we're here to ensure your learning journey is seamless with speedy responses to your questions when you learn with us.</p>
+      </div>
+    </div>
+  </section>
+  <hr>
+
+  <section id="snippet">
+    <!-- Trending Courses -->
+    <div class="max-w-6xl mx-auto text-center my-20 px-10">
+      <h3 class="mb-8 text-4xl font-bold text-purple-700 md:text-5xl">
+        Explore Our Trending Courses</h3> 
+
+        <p class="max-w-2xl mx-auto mb-24 text-xl text-center text-gray-800">
+          Discover the courses that learners can't get enough of. Dive into our trending courses, carefully curated based on high demand and relevance to elevate your skills and profession.
+        </p>
+    </div>
+  </section>
+
+  <section id="features">
+    <div class="max-w-6xl mx-auto text-center my-20 px-10">
+      <div class="relative flex flex-col md:flex-row md:space-x-30">
+        <!--  -->
+        <div class="md:w-1/2">
+          <video class="w-full shadow-lg h-[400px]" autoplay loop muted>
+            <source
+              src="../assets/animations/start-business.mp4"
+              type="video/mp4" 
+              />
+          </video>
+        </div>
+
+        <!-- items conatiner -->
+        <div class="flex flex-col md:flex-row md:w-1/2 md:mb-58 md:text-left md:pl-16 mt-16 mb-12 space-y-12 text-xl">
+          <!-- Business Course -->
+          <div class="space-y-8">
+            <h5 class="mb-2 text-[28px] font-bold text-black"> Want to Start Your Own <span class="text-violet-700">Business ?</span> </h5>
+
+            <p class="max-w-md text-black"> 
+
+              <ul class="space-y-4 text-left text-black ">
+                  <li class="flex items-center space-x-3">
+                       <svg class="flex-shrink-0 w-3.5 h-3.5 text-green-500 dark:text-green-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 12">
+                          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5.917 5.724 10.5 15 1.5"/>
+                       </svg>
+                      <span class="text-[18px]">Want to Start a Profitable Business Without Product ?</span>
+                  </li>
+                  <li class="flex items-center space-x-3">
+                      <svg class="flex-shrink-0 w-3.5 h-3.5 text-green-500 dark:text-green-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 12">
+                          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5.917 5.724 10.5 15 1.5"/>
+                       </svg>
+                      <span  class="text-[18px]">Or want to Grow Existing Business by 3800% ?</span>
+                  </li>
+                  <li class="flex items-center space-x-3">
+                      <svg class="flex-shrink-0 w-3.5 h-3.5 text-green-500 dark:text-green-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 12">
+                          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5.917 5.724 10.5 15 1.5"/>
+                       </svg>
+                      <span class="text-[18px]">Join us We have Perfect Courses Made for you to Help you Achieve Success in Shortest Time Span.</span>
+                  </li>
+                  <li class="flex items-center space-y-4 space-x-3">
+                      <svg class="flex-shrink-0 w-3.5 h-3.5 text-green-500 dark:text-green-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 12">
+                          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5.917 5.724 10.5 15 1.5"/>
+                       </svg>
+                      <span class="text-[18px]">Get Full Access to Premium Downloadable Content Made for You.</span>
+                  </li>
+              </ul>
+              </p>
+              <div class="mx-auto lg:mx-0 mt-8">
+                <a href="/courses" class="py-5 px-10 rounded-full text-xl font-bold text-white bg-violet-600 lg:py-4 hover:bg-opacity-70 hover:translate-y-0.5 hover:shadow-xl">Get Started</a>
+              </div>
+          </div>
+          
+        </div>
+        
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <section id="second-feature mb-24 mt-0">
+
+    <div class="max-w-6xl mx-auto text-center my-8 px-10">
+
+      <div class="relative flex flex-col md:flex-row md:space-x-30">
+
+        <div class="md:w-1/2">
+          <video class="w-full shadow-lg h-[400px]" autoplay loop muted>
+            <source
+              src="../assets/animations/be-a-webDev.mp4"
+              type="video/mp4" 
+              />
+          </video>
+        </div>
+
+        <!-- items conatiner -->
+        <div class="flex flex-col md:flex-row md:w-1/2 md:mb-58 md:text-left md:pl-16 mt-16 mb-12 space-y-12 text-xl">
+          <!-- Business Course -->
+          <div class="space-y-8">
+            <h5 class="mb-2 text-[28px] font-bold text-black"> Want to Start Your Own <span class="text-violet-700">Business</span> ?</h5>
+
+            <p class="max-w-md text-black"> 
+
+              <ul class="space-y-4 text-left text-black">
+                  <li class="flex items-center space-x-3">
+                       <svg class="flex-shrink-0 w-3.5 h-3.5 text-green-500 dark:text-green-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 12">
+                          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5.917 5.724 10.5 15 1.5"/>
+                       </svg>
+                      <span class="text-[18px]">Want to Start a Profitable Business Without Product ?</span>
+                  </li>
+                  <li class="flex items-center space-x-3">
+                      <svg class="flex-shrink-0 w-3.5 h-3.5 text-green-500 dark:text-green-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 12">
+                          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5.917 5.724 10.5 15 1.5"/>
+                       </svg>
+                      <span  class="text-[18px]">Or want to Grow Existing Business by 3800% ?</span>
+                  </li>
+                  <li class="flex items-center space-x-3">
+                      <svg class="flex-shrink-0 w-3.5 h-3.5 text-green-500 dark:text-green-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 12">
+                          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5.917 5.724 10.5 15 1.5"/>
+                       </svg>
+                      <span class="text-[18px]">Join us We have Perfect Courses Made for you to Help you Achieve Success in Shortest Time Span.</span>
+                  </li>
+                  <li class="flex items-center space-y-4 space-x-3">
+                      <svg class="flex-shrink-0 w-3.5 h-3.5 text-green-500 dark:text-green-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 12">
+                          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5.917 5.724 10.5 15 1.5"/>
+                       </svg>
+                      <span class="text-[18px]">Get Full Access to Premium Downloadable Content Made for You.</span>
+                  </li>
+              </ul>
+              </p>
+              <div class="mx-auto lg:mx-0 mt-8">
+                <a href="/courses" class="py-5 px-10 rounded-full text-xl font-bold text-white bg-violet-600 lg:py-4 hover:bg-opacity-70 hover:translate-y-0.5 hover:shadow-xl">Get Started</a>
+              </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </section>
+  <hr class="h-20">
+
+  <!-- early access -->
+  <section id="early-access" class="relative px-6 md:px-0">
+    <div class="max-w-4xl mx-auto p-10 space-y-6 text-center rounded-lg bg-slate-200 to-slate-100 animate-text md:px-16">
+      <h5 class="text-2xl font-bold">
+        Subscribe to our emails
+      </h5>
+      <p class="text-sm"> Be the first to know about new updates and exclusive offers</p>
+
+      <!-- Input and Button -->
+     <div class="flex flex-col items-start space-y-6 md:flex-row md:space-y-0 md:space-x-6">
+      <div class="w-full md:flex-1">
+        <input type="email" class="w-full px-10 py-3 rounded-full focus:outline-none" placeholder="Enter Your Email">
+      </div>
+      <button class="w-full p-3 px-6 rounded-full bg-white md:w-56 hover:opacity-70 font-semibold">Subscribe Now</button>
+     </div>
+    </div>
+
+  </section>
+
+  <footer class="py-16 bg-veryDarkBlue">
+
+    <div class="container flex flex-col items-center justify-between mx-auto space-y-16 md:flex-row md:space-y-0 md:items-start">
+
+      <!-- footer logo -->
+
+      <a href="/"><img src="../assets/images/Learn to Earn. (7).svg " alt="" class="w-10 h-10"></a>
+
+    
+     <div class="flex">
+
+      <form action="" method="get">
+      <!-- menu container -->
+      <div class="flex flex-col-space-y-16 md:space-x-20 md:flex-row md:space-y-0">
+        <!-- item-1 -->
+        <div class="flex flex-col item-center w-full md:items-start">
+          <div class="mb-5 font-bold text-white capitalize hover:translate-y-1 hover:shadow-xl"><a href="/about">About us</a></div>
+        </div>
+       
+      </div>
+
+      <div class="flex flex-col-space-y-16 md:space-x-20 md:flex-row md:space-y-0">
+        <!-- item-2 -->
+        <div class="flex flex-col item-center w-full md:items-start">
+          <div class="mb-5 font-bold text-white capitalize hover:translate-y-1 hover:shadow-xl"><a href="/contact">Contact us</a></div>
+        </div>
+       
+      </div>
+
+      <div class="flex flex-col-space-y-16 md:space-x-20 md:flex-row md:space-y-0">
+        <!-- item-3 -->
+        <div class="flex flex-col item-center w-full md:items-start">
+          <div class="mb-5 font-bold text-white capitalize hover:translate-y-1 hover:shadow-xl">
+            <a href="/privacy">privacy policy</a>
+          </div>
+        </div>
+       
+      </div>
+
+      <div class="flex flex-col-space-y-16 md:space-x-20 md:flex-row md:space-y-0">
+        <!-- item-4 -->
+        <div class="flex flex-col item-center w-full md:items-start">
+          <div class="mb-5 font-bold text-white capitalize hover:translate-y-1 hover:shadow-xl"><a href="/terms">terms & conditions</a></div>
+        </div>
+
+      </div>
+     </form>
+  </div>
+      <!-- social Container -->
+      <div class="flex space-x-6"> 
+        <div class="flex flex-col md:item-center font-bold text-lg text-white">Follow Us On</div>
+        <a href="">
+          <img src="../assets/svgs-design/icon-facebook.svg" alt="facebook-icon" class="ficon">
+        </a>
+        <a href="">
+          <img src="../assets/svgs-design/icon-twitter.svg" alt="twitter-icon" class="ficon">
+        </a>
+        <a href="">
+          <img src="../assets/svgs-design/icon-instagram.svg" alt="instagram-icon" class="ficon">
+        </a>
+        <a href="">
+          <img src="../assets/svgs-design/linkedin (1).svg" alt="linkedin-icon" class="ficon h-8 w-6">
+        </a>
+        <a href="">
+          <i></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+  
+<script src="../js/script.js"></script>
+  <script src="../app.js"></script>
+  </body>
+</html>
+
+
+<!-- <div class="flex flex-col item-center w-full md:items-start">
+  <div class="mb-5 font-bold text-white capitalize"><a href="">Contact Us</a></div>
+</div>
+<div class="flex flex-col pl-4 item-center w-full md:items-start">
+  <div class="mb-5 font-bold text-white capitalize"><a href="">Teach With Us</a></div>
+</div> -->
